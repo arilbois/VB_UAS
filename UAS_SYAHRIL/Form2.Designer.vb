@@ -26,6 +26,7 @@ Partial Class Form2
         Me.CrystalReport31 = New UAS_SYAHRIL.CrystalReport3()
         Me.CrystalReportViewer2 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.CrystalReport32 = New UAS_SYAHRIL.CrystalReport3()
+        Me.Report11 = New UAS_SYAHRIL.Report1()
         Me.SuspendLayout()
         '
         'CrystalReportViewer1
@@ -48,7 +49,7 @@ Partial Class Form2
         Me.CrystalReportViewer2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer2.Location = New System.Drawing.Point(0, 0)
         Me.CrystalReportViewer2.Name = "CrystalReportViewer2"
-        Me.CrystalReportViewer2.ReportSource = Me.CrystalReport32
+        Me.CrystalReportViewer2.ReportSource = Me.Report11
         Me.CrystalReportViewer2.Size = New System.Drawing.Size(800, 450)
         Me.CrystalReportViewer2.TabIndex = 1
         '
@@ -69,4 +70,5 @@ Partial Class Form2
     Friend WithEvents CrystalReport31 As CrystalReport3
     Friend WithEvents CrystalReportViewer2 As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents CrystalReport32 As CrystalReport3
+    Friend WithEvents Report11 As Report1
 End Class
